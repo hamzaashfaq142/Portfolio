@@ -3,21 +3,21 @@ var Config = {
     nav: [
         {
             name: "Home",
-            href: "/home",
-            cName : "'nav-link text-white text-decoration-none"
+            href: "/",
+            cName : "'nav-link btn btn-light rounded-5"
         },
         {
             name: "Contact",
             href: "/contact",
-            cName : "'nav-link text-white text-decoration-none"
+            cName : "'nav-link btn btn-light rounded-5"
         },
     ],
     staticLinks: {
-        main: {
-            href: "/"
-        },
         home: {
-            href: '/home'
+            href: '/'
+        },
+        contact: {
+            href: '/contact'
         }
     }
 }

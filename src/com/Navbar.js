@@ -10,15 +10,15 @@ const Navbar = () => {
           <p className='h3 fw-bold fst-italic fontSans magenta'>{Config.navHeader}</p>
         </a>
         <nav className="nav nav-pills flex-row" id="navs">
-        {
-          Config.nav.map((item, index) => {
-            return (
-              <a key={index} className={item.cName} href={item.href}>
-                {item.name}
-              </a>
-            )
-          })
-        }
+          {
+            Config.nav.map((item, index) => {
+              return (
+                <a key={index} className={item.cName} href={item.href}>
+                  {item.name}
+                </a>
+              )
+            })
+          }
         </nav>
       </nav>
 

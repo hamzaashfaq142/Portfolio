@@ -6,12 +6,12 @@ var Config = {
         {
             name: "Home",
             href: "/portfolio/home",
-            cName : "'nav-link rounded-5 me-4 text-decoration-none fontMono d-flex"
+            cName : "'nav-link rounded-5 me-4 text-decoration-none fontMono"
         },
         {
             name: "Contact",
             href: "/portfolio/contact",
-            cName : "'nav-link rounded-5 me-2 text-decoration-none fontMono d-flex"
+            cName : "'nav-link rounded-5 me-2 text-decoration-none fontMono"
         },
     ],
     staticLinks: {

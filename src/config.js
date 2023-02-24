@@ -1,23 +1,31 @@
 var Config = {
+    navHeader : "Portfolio",
     portfolioName: "Muhammad Daniyal",
+    tagLine: "I build things for web.",
     nav: [
         {
             name: "Home",
-            href: "/",
-            cName : "'nav-link btn btn-light rounded-5"
+            href: "/portfolio/home",
+            cName : "'nav-link rounded-5 me-4 text-decoration-none fontMono d-flex"
         },
         {
             name: "Contact",
-            href: "/contact",
-            cName : "'nav-link btn btn-light rounded-5"
+            href: "/portfolio/contact",
+            cName : "'nav-link rounded-5 me-2 text-decoration-none fontMono d-flex"
         },
     ],
     staticLinks: {
-        home: {
+        main: {
             href: '/'
         },
+        portfolio: {
+            href: '/portfolio'
+        },
         contact: {
-            href: '/contact'
+            href: '/portfolio/contact'
+        },
+        home: {
+            href: '/portfolio/home'
         }
     }
 }

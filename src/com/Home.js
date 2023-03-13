@@ -8,7 +8,7 @@ function Home() {
                 <h2 className="big-heading-white fontSans fst-italic">{Config.portfolioName},</h2>
                 <h2 className="big-heading-grey fontSans">{Config.tagLine}</h2>
                 <p className="mt-4 mb-4 w-75">{Config.overview}</p>
-                <a className="button fontMono fst-italic p-2" href="resume.pdf">Check Out My Resume!</a>
+                <a className="button fontMono fst-italic p-2" href={Config.resumeLink}>Check Out My Resume!</a>
             </div>
         </div>
 

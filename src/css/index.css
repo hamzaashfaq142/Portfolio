@@ -67,13 +67,18 @@ p {
 /*****************************************************************************************************************/
 
 /***************************************************Nav Bar*********************************************************/
+#navbar {
+    background-color: #0A192F;
+    opacity: 0.97;
+}
+
 #navbar #navs {
-    counter-reset: count -1;
+    counter-reset: count 0;
 }
 
 #navbar #navs a {
     counter-increment: count 1;
-    color: white;
+    color: #8892b0;
 }
 
 #navbar #navs a::before {
@@ -122,7 +127,7 @@ p {
 }
 
 .button:hover {
-    color: black;
+    color: #8892b0;
     background-color: #64ffda;
     border-color:#64ffda;
 }

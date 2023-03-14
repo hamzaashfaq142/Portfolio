@@ -1,6 +1,7 @@
 import Contact from './com/Contact';
 import Home from './com/Home';
 import Navbar from './com/Navbar';
+import Footer from './com/Footer';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
             <Navbar />
             <Home />
             <Contact />
+            <Footer/>
         </div>
     )
 };

@@ -6,7 +6,7 @@ function Contact() {
             
                 <p className="magenta fontMono h5">What's Next?</p>
                 <h2 className="big-heading-white fontSans">Get In Touch</h2>
-                <p className="mb-4 w-50">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+                <p className="mb-4 w-50">My mailbox is always open, even though I'm not seeking for any new opportunities right now. I will do my best to get back to you whether you have a question or are just looking to say hello!</p>
                 <a className="button fontMono fst-italic p-2" href={'mailto:' + Config.email}>Say Hello!</a>
             </div>
         </div>

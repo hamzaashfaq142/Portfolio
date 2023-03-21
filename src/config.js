@@ -5,6 +5,7 @@ var Config = {
     overview: "I work as a software engineer and have a focus on creating and designing digital experiences. I have extensive knowledge with databases and data visualisation softwares. Building a solution to make it easier to integrate e-commerce applications with websites is my current area of focus.",
     resumeLink : "https://1drv.ms/b/s!AjVMrCd_e_C_g_tTXQdLjV4WDyVIQg?e=JJJUGj",
     email : "daniyalriaz371@gmail.com",
+    about : "Hi, My name is Daniyal and I enjoy creating the digital experiences that live on internet",
     nav: [
         {
             name: "About",

@@ -2,14 +2,16 @@ import Contact from './com/Contact';
 import Home from './com/Home';
 import Navbar from './com/Navbar';
 import Footer from './com/Footer';
+import About from './com/About';
 
 function App() {
 
 
     return (
-        <div id='App' data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabIndex="0">
+        <div id='App'>
             <Navbar />
             <Home />
+            <About/>
             <Contact />
             <Footer/>
         </div>

@@ -3,7 +3,7 @@ import Config from "../config";
 function Home() {
     return (
         <div id="home" className="d-flex align-items-center vh-100">
-            <div className="container">
+            <div>
                 <p className="magenta fontMono h5">Hi, my name is,</p>
                 <h2 className="big-heading-white fontSans fst-italic">{Config.portfolioName},</h2>
                 <h2 className="big-heading-grey fontSans">{Config.tagLine}</h2>

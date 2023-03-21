@@ -25,6 +25,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .magenta {
@@ -38,6 +40,13 @@ h2.big-heading-white {
     color: #ccd6f6;
     font-size: 80px;
     font-weight: 600;
+    line-height: 88px;
+}
+
+h2.med-heading-white {
+    color: #ccd6f6;
+    font-size: 60px;
+    font-weight: 500;
     line-height: 88px;
 }
 

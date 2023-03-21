@@ -8,13 +8,15 @@ function App() {
 
 
     return (
-        <div id='App'>
+        <>
             <Navbar />
-            <Home />
-            <About/>
-            <Contact />
-            <Footer/>
-        </div>
+            <div id='App'>
+                <Home />
+                <About />
+                <Contact />
+                <Footer />
+            </div>
+        </>
     )
 };
 

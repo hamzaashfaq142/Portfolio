@@ -1,20 +1,18 @@
+import React from "react";
 import Config from "../config";
 
 function Home() {
-    return (
-        <div className="container" id="home">
-            <div className="d-flex align-items-center">
-                <div className="mt-5">
-                    <p className="magenta fontMono h5 mt-5">Hi, my name is,</p>
-                    <h2 className="big-heading-white fontSans fst-italic">{Config.portfolioName},</h2>
-                    <h2 className="big-heading-grey fontSans">{Config.tagLine}</h2>
-                    <p className="mt-4 mb-4 w-75">{Config.overview}</p>
-                    <a className="button fontMono fst-italic p-2" href={Config.resumeLink}>Check Out My Resume!</a>
-                </div>
-            </div>
+  return (
+    <div className="home-container container">
+      <div className="row">
+        <div className="col-md-8 col-lg-6 mx-auto">
+          <h2 className="tagline">{Config.tagLine}</h2>
+          <h1 className="portfolio-name">{Config.portfolioName}</h1>
+          <p className="overview">{Config.overview}</p>
         </div>
-
-    )
+      </div>
+    </div>
+  );
 }
 
 export default Home;

@@ -1,146 +1,42 @@
-/***************************************************Fonts*********************************************************/
-@import url('https://fonts.cdnfonts.com/css/sf-mono');
-
-.fontSans {
-    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
-}
-
-.fontMono {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-}
-
-/*****************************************************************************************************************/
-
-/***************************************************App Global Settings*********************************************************/
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#App {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #0A192F;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.magenta {
-    color: #64ffda;
-}
-
-/*****************************************************************************************************************/
-
-/***************************************************Custom Headings*********************************************************/
-h2.big-heading-white {
-    color: #ccd6f6;
-    font-size: 80px;
-    font-weight: 600;
-    line-height: 88px;
-}
-
-h2.med-heading-white {
-    color: #ccd6f6;
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 88px;
-}
-
-h2.big-heading-grey {
-    color: #8892b0;
-    font-size: 80px;
-    font-weight: 600;
-    line-height: 72px;
-    margin: 5px 0px 0px;
-}
-
-h3.big-heading-white {
-    color: white;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 72px;
-    margin: 5px 0px 0px;
-}
-
-p {
-    color: #8892b0;
-    font-size: 20px;
-    line-height: 26px;
-    margin: 20px 0px 0px;
-}
-
-/*****************************************************************************************************************/
-
-/***************************************************Nav Bar*********************************************************/
-#navbar {
-    background-color: #0A192F;
-    opacity: 0.97;
-}
-
-#navbar #navs {
-    counter-reset: count 0;
-}
-
-#navbar #navs a {
-    counter-increment: count 1;
-    color: #8892b0;
-}
-
-#navbar #navs a::before {
-    margin-right: 5px;
-    color: #64ffda;
-    text-align: right;
-    content: counter(count, decimal) '. ';
-}
-
-#navbar #navs a:hover {
-    color: #64ffda;
-}
-
-#footer i {
-    color: #64ffda;
-}
-
-/*****************************************************************************************************************/
-
-/***************************************************Scroll Bar*********************************************************/
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-::-webkit-scrollbar-track {
-    background: black
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-    border-radius: 8px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #64ffda;
-}
-
-/*****************************************************************************************************************/
-
-.button {
-    background-color: transparent;
-    color: #64ffda;
-    transition: all .7s;
-    border-style : solid;
-    padding: 2;
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 5px;
-}
-
-.button:hover {
-    color: #8892b0;
-    background-color: #64ffda;
-    border-color:#64ffda;
-}
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Styles for desktop view */
+    .portfolio-name {
+      font-size: 3rem;
+      font-weight: 300;
+    }
+  
+    .tagline {
+      font-size: 2.5rem;
+    }
+  
+    .overview {
+      font-size: 1.5rem;
+      text-align: left;
+      line-height: 1.5;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    /* Styles for mobile view */
+    .portfolio-name {
+      font-size: 2rem;
+      font-weight: 200;
+    }
+  
+    .tagline {
+      font-size: 1.2rem;
+    }
+  
+    .overview {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+  }
+  

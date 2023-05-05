@@ -1,23 +1,16 @@
-import Contact from './com/Contact';
-import Home from './com/Home';
+import React from 'react';
 import Navbar from './com/Navbar';
-import Footer from './com/Footer';
-import About from './com/About';
+import Home from './com/Home';
+import './css/index.css';
+import Config from './config';
 
 function App() {
-
-
-    return (
-        <>
-            <Navbar />
-            <div id='App'>
-                <Home />
-                <About />
-                <Contact />
-                <Footer />
-            </div>
-        </>
-    )
-};
+  return (
+    <div className="App">
+      <Navbar brandName={Config.navHeader} resumeLink={Config.resumeLink} />
+      <Home />
+    </div>
+  );
+}
 
 export default App;

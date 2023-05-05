@@ -1,42 +1,69 @@
+* {
+  background-color: rgb(1, 22, 49);
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .home-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for desktop view */
+  .dark-big-heading {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 72px;
+    font-family: Calibri, sans-serif;
   }
-  
-  @media screen and (min-width: 768px) {
-    /* Styles for desktop view */
-    .portfolio-name {
-      font-size: 3rem;
-      font-weight: 300;
-    }
-  
-    .tagline {
-      font-size: 2.5rem;
-    }
-  
-    .overview {
-      font-size: 1.5rem;
-      text-align: left;
-      line-height: 1.5;
-    }
+
+  .light-big-heading {
+    color: #8892b0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    font-family: Calibri, sans-serif;
   }
-  
-  @media screen and (max-width: 767px) {
-    /* Styles for mobile view */
-    .portfolio-name {
-      font-size: 2rem;
-      font-weight: 200;
-    }
-  
-    .tagline {
-      font-size: 1.2rem;
-    }
-  
-    .overview {
-      font-size: 1.2rem;
-      line-height: 1.2;
-    }
+
+  .paragraph {
+    color: #8892b0;
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 26px;
+    font-family: Calibri, sans-serif;
+    max-width: 600px;
   }
-  
+
+  .mini-heading {
+    font-family: "SF Mono", monospace;
+    color: #64ffda;
+  }
+
+  .navbar .navbar-brand {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #64ffda;
+  }
+
+  .navbar .nav-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: "SF Mono", monospace;
+    border-bottom: 1px solid #64ffda;
+  }
+
+  .navbar .nav-link:hover {
+    background-color: #64ffda;
+    border: 1px solid #64ffda;
+  }
+
+}

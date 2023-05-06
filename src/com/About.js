@@ -39,7 +39,7 @@ function About() {
                         }
                     </div>
                 </div>
-                <img src="img/portrait.jpg" alt="Portfolio" />
+                <img src="/img/portrait.jpg" alt="Portfolio" />
             </div>
         </div>
     )

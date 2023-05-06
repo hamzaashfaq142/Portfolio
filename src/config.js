@@ -5,9 +5,10 @@ var Config = {
     overview: "I am an experienced SQL Developer with expertise in BI, data analytics, and data visualization. Skilled in Node JS, React JS, MongoDB, and Express JS. Proven track record of success in data modeling, ETL, dashboarding, and API development. Passionate about harnessing the power of data to drive growth and innovation. Let's connect to take your business to the next level.",
     resumeLink : "https://1drv.ms/b/s!AjVMrCd_e_C_g_tTXQdLjV4WDyVIQg?e=JJJUGj",
     email : "daniyalriaz371@gmail.com",
-    about : "A motivated and result-oriented Database Developer, skilled in working with complex queries, SQL for development, and reporting. Proficient in JavaScript, Node JS, and React JS, ready to learn new technologies and their applications. Seeking an opportunity to work for a progressive organization with full devotion and to utilize all skills and knowledge to contribute towards the growth of the company in general and self-growth in particular. Here are a few technologies I’ve been working with recently:",
+    about : "Hi, my name is Muhammad Daniyal and I am a passionate creator who loves to solve problems. My areas of interest include Databases, Data Visualization, Data Analytics and Web Development. I began my career as a Database Developer when I landed an internship at a company after completing my intermediate studies. I discovered that I had a natural talent for learning and practicing SQL and programming languages.<br/>Since then, I have gained valuable experience working in the retail industry and freelancing for various clients. My current focus is on mastering modern technologies and creating accessible and inclusive digital experiences. <br/>I believe in constantly learning and expanding my knowledge base to stay up-to-date with the latest trends and technologies. I am excited to continue my journey as a creator and look forward to taking on new challenges and opportunities. <br/>Some of the technologies I have been working with recently include:",
     imgPath : "img/portrait.jpg",
-    techExperience : ['SQL','PL/SQL','Reporting Tools','HTML/CSS','Javascript','Node.js','React.js','MongoDB'],
+    techExperience : ['Databases','SQL','PL/SQL','Data Visulization','ETL','HTML/CSS','Javascript','Node Js','React Js','MongoDB','Express','REST APIs'],
+    noOfTechColumns : 3,
     socials : [
         {
             icon : "facebook",
@@ -27,11 +28,6 @@ var Config = {
         }
     ],
     navLinks : [
-        {
-            name : 'Home',
-            href : '#home',
-            class : 'btn rounded-3 p-2'
-        },
         {
             name : 'About',
             href : '#about',

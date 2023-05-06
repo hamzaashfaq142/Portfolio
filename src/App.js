@@ -1,14 +1,16 @@
 import React from 'react';
 import Navbar from './com/Navbar';
 import Home from './com/Home';
-import './css/index.css';
-import Config from './config';
+import Contact from './com/Contact';
+import About from './com/About';
 
 function App() {
   return (
     <div className="App">
-      <Navbar brandName={Config.navHeader} resumeLink={Config.resumeLink} />
+      <Navbar />
       <Home />
+      <About/>
+      <Contact/>
     </div>
   );
 }

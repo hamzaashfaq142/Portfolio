@@ -3,7 +3,7 @@ import Config from "../config";
 
 function Home() {
     return (
-        <div className="home-container">
+        <div id="home" className="home-container">
             <div className="row">
                 <div className="col-md-8 col-lg-6 mx-auto">
                     <h4 className="mini-heading">Hi, my name is</h4>

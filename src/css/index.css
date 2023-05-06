@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(1, 22, 49);
+  background-color: #0a192f
 }
 
 body {
@@ -13,57 +13,99 @@ body {
   justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-  /* Styles for desktop view */
-  .dark-big-heading {
-    color: white;
-    font-size: 80px;
-    font-weight: 600;
-    line-height: 72px;
-    font-family: Calibri, sans-serif;
-  }
+.contact-container {
+  min-height: 700px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-  .light-big-heading {
-    color: #8892b0;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 40px;
-    font-family: Calibri, sans-serif;
-  }
+.about-container {
+  color: #ccd6f6;
+  min-height: 700px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
-  .paragraph {
-    color: #8892b0;
-    font-size: 20px;
-    margin-top: 25px;
-    line-height: 26px;
-    font-family: Calibri, sans-serif;
-    max-width: 600px;
-  }
+.about-container img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 40px;
+}
 
-  .mini-heading {
-    font-family: "SF Mono", monospace;
-    color: #64ffda;
-  }
+.dark-big-heading {
+  color: #ccd6f6;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 72px;
+  font-family: Calibri, sans-serif;
+}
 
-  .navbar .navbar-brand {
-    color: white;
-    font-family: Calibri, sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: #64ffda;
-  }
+.sub-heading {
+  color: #ccd6f6;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 72px;
+  font-family: Calibri, sans-serif;
+}
 
-  .navbar .nav-link {
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    font-family: "SF Mono", monospace;
-    border-bottom: 1px solid #64ffda;
-  }
+.light-big-heading {
+  color: #8892b0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  font-family: Calibri, sans-serif;
+}
 
-  .navbar .nav-link:hover {
-    background-color: #64ffda;
-    border: 1px solid #64ffda;
-  }
+.paragraph {
+  color: #8892b0;
+  font-size: 20px;
+  margin-top: 25px;
+  line-height: 26px;
+  font-family: Calibri, sans-serif;
+  max-width: 600px;
+}
 
+.mini-heading {
+  font-family: "SF Mono", monospace;
+  color: #64ffda;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-family: Calibri, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #64ffda;
+}
+
+.navbar .nav-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-family: "SF Mono", monospace;
+  border-bottom: 1px solid #64ffda;
+}
+
+.navbar .nav-link:hover {
+  background-color: #64ffda;
+  border: 1px solid #64ffda;
+}
+
+i.bi {
+  color: #64ffda;
+  margin: 5px;
+  font-size: 50px;
+}
+
+#navbar {
+  opacity: 0.98;
+}
+
+hr {
+  width: 500px;
+  color: #64ffda;
 }

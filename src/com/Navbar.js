@@ -1,9 +1,9 @@
 import Config from "../config";
 
-function Navbar(props) {
+function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top mx-5">
-      <div className="navbar-brand">{props.brandName}</div>
+    <nav id="navbar" className="navbar navbar-expand-lg fixed-top mx-5">
+      <div className="navbar-brand">{Config.navHeader}</div>
       <button
         className="navbar-toggler"
         type="button"

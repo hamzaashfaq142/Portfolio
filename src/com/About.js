@@ -23,6 +23,7 @@ function About() {
         </ul>
     );
 
+
     return (
         <div id="about" className="about-container">
             <div className="d-flex flex-row">
@@ -39,7 +40,13 @@ function About() {
                         }
                     </div>
                 </div>
-                <img src={Config.imgPath }alt="Portfolio" />
+                <div style={{ position: "relative" }}>
+                    <img
+                        src={Config.imgPath}
+                        alt="Portfolio Profile"
+                    />
+                    <div id="picOverlay"/>
+                </div>
             </div>
         </div>
     )

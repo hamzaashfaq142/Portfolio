@@ -11,7 +11,7 @@ function Contact() {
                     Say Hello
                 </a>
             </div>
-            <div className="d-flex flex-row align-items-center mt-3">
+            <div className="d-flex flex-row align-items-center mt-5">
                 {
                     Config.socials.map((value, index) => {
                         return (

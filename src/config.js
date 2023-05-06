@@ -31,17 +31,20 @@ var Config = {
         {
             name : 'About',
             href : '#about',
-            class : 'btn rounded-3 p-2'
+            class : 'btn rounded-3 p-2',
+            target : ""
         },
         {
             name : 'Contact',
             href : '#contact',
-            class : 'btn rounded-3 p-2'
+            class : 'btn rounded-3 p-2',
+            target : ""
         },
         {
             name : 'Resume',
             href : 'https://1drv.ms/b/s!AjVMrCd_e_C_hIR2Jn4CP3WXgUR4oA?e=oewJYh',
-            class : 'btn rounded-3 p-2'
+            class : 'btn rounded-3 p-2',
+            target : "_blank"
         }
     ]
 }

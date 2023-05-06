@@ -20,8 +20,8 @@ function Navbar() {
           {
             Config.navLinks.map((value, index) => {
               return (
-                <li className="nav-item" key={index}>
-                  <a className={"nav-link " + value.class} href={value.href}>
+                <li className="nav-item" key={index} >
+                  <a className={"nav-link " + value.class} href={value.href} target={value.target} rel="noreferrer" >
                     {value.name}
                   </a>
                 </li>

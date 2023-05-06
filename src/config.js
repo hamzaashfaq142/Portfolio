@@ -6,25 +6,29 @@ var Config = {
     resumeLink : "https://1drv.ms/b/s!AjVMrCd_e_C_g_tTXQdLjV4WDyVIQg?e=JJJUGj",
     email : "daniyalriaz371@gmail.com",
     about : "Hi, my name is Muhammad Daniyal and I am a passionate creator who loves to solve problems. My areas of interest include Databases, Data Visualization, Data Analytics and Web Development. I began my career as a Database Developer when I landed an internship at a company after completing my intermediate studies. I discovered that I had a natural talent for learning and practicing SQL and programming languages.<br/>Since then, I have gained valuable experience working in the retail industry and freelancing for various clients. My current focus is on mastering modern technologies and creating accessible and inclusive digital experiences. <br/>I believe in constantly learning and expanding my knowledge base to stay up-to-date with the latest trends and technologies. I am excited to continue my journey as a creator and look forward to taking on new challenges and opportunities. <br/>Some of the technologies I have been working with recently include:",
-    imgPath : "img/portrait.jpg",
+    imgPath : "img/portrait.JPG",
     techExperience : ['Databases','SQL','PL/SQL','Data Visulization','ETL','HTML/CSS','Javascript','Node Js','React Js','MongoDB','Express','REST APIs'],
     noOfTechColumns : 3,
     socials : [
         {
             icon : "facebook",
-            href : "https://www.facebook.com/profile.php?id=100011717698040"
+            href : "https://www.facebook.com/profile.php?id=100011717698040",
+            target : "_blank"
         },
         {
             icon : "whatsapp",
-            href : "https://wa.me/+923181445347"
+            href : "https://wa.me/+923181445347",
+            target : "_blank"
         },
         {
             icon : "github",
-            href : "https://github.com/DaniMughal371"
+            href : "https://github.com/DaniMughal371",
+            target : "_blank"
         },
         {
             icon : "linkedin",
-            href : "https://www.linkedin.com/in/muhammad-daniyal-a325a31a1/"
+            href : "https://www.linkedin.com/in/muhammad-daniyal-a325a31a1/",
+            target : "_blank"
         }
     ],
     navLinks : [

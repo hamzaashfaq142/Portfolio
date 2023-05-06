@@ -15,7 +15,7 @@ function Contact() {
                 {
                     Config.socials.map((value, index) => {
                         return (
-                            <a href={value.href} key={index}>
+                            <a href={value.href} key={index} target={value.target} rel="noreferrer">
                                 <i className={"bi bi-" + value.icon}>
                                 </i>
                             </a>

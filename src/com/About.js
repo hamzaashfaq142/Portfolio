@@ -39,7 +39,7 @@ function About() {
                         }
                     </div>
                 </div>
-                <img src="/img/portrait.jpg" alt="Portfolio" />
+                <img src={process.env.PUBLIC_URL + Config.imgPath }alt="Portfolio" />
             </div>
         </div>
     )

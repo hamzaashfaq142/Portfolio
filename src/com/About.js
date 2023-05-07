@@ -17,11 +17,12 @@ function About() {
 
     const renderList = (items) => (
         <ul>
-            {items.map((item) => (
-                <li key={item}>{item}</li>
-            ))}
+          {items.map((item, index) => (
+            <li key={`${item}-${index}`}>{item}</li>
+          ))}
         </ul>
-    );
+      );
+      
 
 
     return (
@@ -33,10 +34,13 @@ function About() {
                     <p className="paragraph" dangerouslySetInnerHTML={{ __html: Config.about }}></p>
                     <div className="d-flex flex-row m-2 mini-heading">
                         {
-                            brokenList.map((value) => {
-                                console.log(value)
-                                return (renderList(value))
-                            })
+                            brokenList.map((value, index) => {
+                                return (
+                                  <div key={index} className="d-flex flex-column mx-4">
+                                    {renderList(value)}
+                                  </div>
+                                );
+                              })
                         }
                     </div>
                 </div>

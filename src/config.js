@@ -30,27 +30,6 @@ var Config = {
                     data : "Assisted with Retail Pro ERP and Canias ERP, modifying reports, dashboards, forms, and dialogs to meet client needs."
                 }
             ]
-        },
-        {
-            companyShortName : "Test",
-            link : "",
-            companyLongName : "Test Conpany",
-            designation : "Test Designation",
-            period : "Sep 2020 - Feb 2023",
-            responsibilities : [
-                {
-                    data : "Test Responsibility."
-                },
-                {
-                    data : "Developed complex queries and database objects including procedures, tables, and views."
-                },
-                {
-                    data : "Utilized reporting tools such as Jasper Reports, SAP Crystal Reports, Power BI, Targit BI, and Krunch to visualize data and presented solutions to clients after gathering their requirements."
-                },
-                {
-                    data : "Assisted with Retail Pro ERP and Canias ERP, modifying reports, dashboards, forms, and dialogs to meet client needs."
-                }
-            ]
         }
     ],
     socials : [

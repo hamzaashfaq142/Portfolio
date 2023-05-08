@@ -2,7 +2,7 @@ import Config from "../config";
 
 function Navbar() {
   return (
-    <nav id="navbar" className="navbar-container navbar navbar-dark navbar-expand-xl fixed-top px-5">
+    <nav id="navbar" className="navbar-container navbar navbar-dark navbar-expand-xl fixed-top">
       <div className="navbar-brand">{Config.navHeader}</div>
       <button
         id="toggler"

@@ -6,6 +6,8 @@
   --calibri: Calibri, sans-serif;
   --bold: 600;
   --light: 500;
+  --mobile-bold : 500;
+  --mobile-light : 300;
   --mono-space: "SF Mono", monospace;
   --navbar-height : 80px;
   --diff-from-nav : 10px;
@@ -32,6 +34,8 @@ body {
 
   .navbar-container {
     min-height: var(--navbar-height);
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   #toggler {
@@ -234,6 +238,8 @@ body {
 
   .navbar-container {
     min-height: var(--navbar-height);
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .home-container {
@@ -428,6 +434,8 @@ body {
 
   .navbar-container {
     min-height: calc(var(--navbar-height) - var(--nav-mobile-diff));
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #toggler {
@@ -436,34 +444,117 @@ body {
 
   .home-container {
     padding-top: calc(var(--navbar-height) - var(--nav-mobile-diff) + var(--nav-mobile-diff));
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
   }
 
   .dark-big-heading {
     color: var(--white);
     font-size: 3rem;
     font-weight: var(--bold);
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     font-family: var(--calibri);
   }
 
   .light-big-heading {
     color: var(--grey);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: var(--bold);
-    line-height: 1.5rem;
+    line-height: 2rem;
     font-family: var(--calibri);
   }
 
   .paragraph {
     color: var(--grey);
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    line-height: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: var(--mobile-light);
     font-family: var(--calibri);
   }
+
+  .mini-heading {
+    font-family: var(--mono-space);
+    color: var(--main-color);
+  }
+
+  h4.mini-heading {
+    font-size: 1.3rem;
+  }
+
+  .navbar .navbar-brand {
+    font-family: var(--calibri);
+    font-size: 2rem;
+    font-weight: var(--mobile-bold);
+    color: var(--main-color);
+  }
+
+  .navbar .nav-link {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-family: var(--mono-space);
+    border-bottom: 1px solid var(--main-color);
+  }
+
+  #navbar {
+    opacity: 0.98;
+  }
+
+  .navbar .nav-link:hover {
+    background-color: var(--main-color);
+  }
+
+  .sub-heading {
+    color: var(--grey);
+    font-size: 2rem;
+    font-weight: var(--bold);
+    line-height: 2rem;
+    font-family: var(--calibri);
+  }
+
+  .about-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--grey);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  hr {
+    color: var(--main-color);
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-placement {
+    flex-direction: column;
+  }
+
+  .about-container img {
+    width: 200px;
+    height: 260px;
+    margin-top: 20px;
+  }
+
+  ul.mini-heading {
+    font-size: 1rem;
+  }
+
+  i.bi {
+    color: var(--main-color);
+    margin: 5px;
+    font-size: 2rem;
+  }
+
+
 }

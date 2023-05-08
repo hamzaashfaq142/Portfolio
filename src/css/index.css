@@ -443,8 +443,8 @@ body {
   }
 
   .home-container {
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -517,8 +517,8 @@ body {
 
   .about-container {
     padding-top: calc(var(--navbar-height) - var(--nav-mobile-diff) + var(--nav-mobile-diff));
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: var(--grey);
     align-items: center;
     justify-content: center;
@@ -557,8 +557,8 @@ body {
   }
 
   .experience-container {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: calc(var(--navbar-height) + var(--diff-from-nav));
     display: flex;
     justify-content: center;
@@ -613,8 +613,8 @@ body {
   .contact-container {
     padding-top: calc(var(--navbar-height) + var(--diff-from-nav));
     padding-bottom: calc(var(--navbar-height) + var(--diff-from-nav));
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;

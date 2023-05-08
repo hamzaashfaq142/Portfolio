@@ -26,7 +26,7 @@ function About() {
 
 
     return (
-        <div id="about" className="about-container col-8 mx-auto">
+        <div id="about" className="about-container col-xl-8 mx-auto">
             <div className="d-flex image-placement">
                 <div className="d-flex flex-column">
                     <h2 className="sub-heading">About Me</h2>

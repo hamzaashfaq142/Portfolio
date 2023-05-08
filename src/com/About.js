@@ -26,8 +26,8 @@ function About() {
 
 
     return (
-        <div id="about" className="about-container">
-            <div className="d-flex flex-row">
+        <div id="about" className="about-container col-8 mx-auto">
+            <div className="d-flex image-placement">
                 <div className="d-flex flex-column">
                     <h2 className="sub-heading">About Me</h2>
                     <hr />
@@ -44,12 +44,8 @@ function About() {
                         }
                     </div>
                 </div>
-                <div style={{ position: "relative" }}>
-                    <img
-                        src={Config.imgPath}
-                        alt="Portfolio Profile"
-                    />
-                    <div id="picOverlay"/>
+                <div className="image-container">
+                    <img src={Config.imgPath} alt="Portfolio Profile" />
                 </div>
             </div>
         </div>

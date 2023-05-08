@@ -7,7 +7,7 @@ function Experience() {
     const [activeTab, setActiveTab] = useState(0);
 
     return (
-        <div id="experience" className="experience-container">
+        <div id="experience" className="experience-container col-8 mx-auto">
             <div>
                 <h2 className="sub-heading">Where I have Worked</h2>
                 <hr />

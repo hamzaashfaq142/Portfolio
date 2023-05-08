@@ -32,11 +32,11 @@ function About() {
                     <h2 className="sub-heading">About Me</h2>
                     <hr />
                     <p className="paragraph" dangerouslySetInnerHTML={{ __html: Config.about }}></p>
-                    <div className="d-flex flex-row m-2">
+                    <div className="d-flex flex-row ">
                         {
                             brokenList.map((value, index) => {
                                 return (
-                                  <div key={index} className="d-flex flex-column mx-4">
+                                  <div key={index} className="d-flex flex-column ">
                                     {renderList(value)}
                                   </div>
                                 );

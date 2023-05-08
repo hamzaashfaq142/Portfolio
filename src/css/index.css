@@ -214,7 +214,7 @@ body {
 
   .tab-desc .responsibilities {
     font-size: 0.9rem;
-    font-family: Calibri, sans-serif;
+    font-family: var(--calibri);
     line-height: 1.17rem;
   }
 
@@ -443,7 +443,6 @@ body {
   }
 
   .home-container {
-    padding-top: calc(var(--navbar-height) - var(--nav-mobile-diff) + var(--nav-mobile-diff));
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
@@ -517,6 +516,7 @@ body {
   }
 
   .about-container {
+    padding-top: calc(var(--navbar-height) - var(--nav-mobile-diff) + var(--nav-mobile-diff));
     margin-left: 10px;
     margin-right: 10px;
     color: var(--grey);
@@ -547,7 +547,7 @@ body {
   }
 
   ul.mini-heading {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   i.bi {
@@ -556,5 +556,69 @@ body {
     font-size: 2rem;
   }
 
+  .experience-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: calc(var(--navbar-height) + var(--diff-from-nav));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .tab-head {
+    max-width: 50px;
+    margin-right: 10px;
+    font-weight: var(--mobile-light);
+    text-decoration: none;
+    font-family: var(--mono-space);
+    color: var(--main-color);
+    font-size: 1.4rem;
+  }
+
+  .nav-pills .nav-link {
+    color: var(--main-color);
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link:hover {
+    background-color: var(--main-color);
+    color: var(--navy-blue);
+  }
+
+  .tab-desc {
+    color: var(--grey);
+    font-size: 1.4rem;
+    font-weight: var(--mobile-light);
+    font-family: var(--calibri);
+    line-height: 1.6rem;
+  }
+
+  .tab-desc .company-name {
+    color: var(--main-color);
+    text-decoration: none;
+  }
+
+  .tab-desc .period {
+    font-size: 1.1rem;
+    font-family: var(--mono-space);
+  }
+
+  .tab-desc .responsibilities {
+    font-size: 1.3rem;
+    font-family: var(--calibri);
+    line-height: 1.6rem;
+  }
+
+  .contact-container {
+    padding-top: calc(var(--navbar-height) + var(--diff-from-nav));
+    padding-bottom: calc(var(--navbar-height) + var(--diff-from-nav));
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }

@@ -16,7 +16,7 @@ function About() {
     }, [])
 
     const renderList = (items) => (
-        <ul>
+        <ul className="mini-heading">
           {items.map((item, index) => (
             <li key={`${item}-${index}`}>{item}</li>
           ))}
@@ -32,7 +32,7 @@ function About() {
                     <h2 className="sub-heading">About Me</h2>
                     <hr />
                     <p className="paragraph" dangerouslySetInnerHTML={{ __html: Config.about }}></p>
-                    <div className="d-flex flex-row m-2 mini-heading">
+                    <div className="d-flex flex-row m-2">
                         {
                             brokenList.map((value, index) => {
                                 return (

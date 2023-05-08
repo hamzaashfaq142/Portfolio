@@ -9,6 +9,7 @@
   --mono-space: "SF Mono", monospace;
   --navbar-height : 80px;
   --diff-from-nav : 10px;
+  --nav-mobile-diff : 30px;
 }
 
 * {
@@ -416,5 +417,53 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media (max-width : 991px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  .navbar-container {
+    min-height: calc(var(--navbar-height) - var(--nav-mobile-diff));
+  }
+
+  #toggler {
+    color: var(--main-color) !important;
+  }
+
+  .home-container {
+    padding-top: calc(var(--navbar-height) - var(--nav-mobile-diff) + var(--nav-mobile-diff));
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dark-big-heading {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: var(--bold);
+    line-height: 2.5rem;
+    font-family: var(--calibri);
+  }
+
+  .light-big-heading {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-weight: var(--bold);
+    line-height: 1.5rem;
+    font-family: var(--calibri);
+  }
+
+  .paragraph {
+    color: var(--grey);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    line-height: 1.4rem;
+    font-family: var(--calibri);
   }
 }

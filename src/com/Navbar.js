@@ -2,9 +2,10 @@ import Config from "../config";
 
 function Navbar() {
   return (
-    <nav id="navbar" className="navbar-container navbar navbar-expand-lg fixed-top px-5">
+    <nav id="navbar" className="navbar-container navbar navbar-dark navbar-expand-xl fixed-top px-5">
       <div className="navbar-brand">{Config.navHeader}</div>
       <button
+        id="toggler"
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"

@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+#toggler {
+  border-color: var(--main-color) !important;
+}
+
 @media screen and (min-width: 1200px) {
 
   html {
@@ -27,6 +31,10 @@ body {
 
   .navbar-container {
     min-height: var(--navbar-height);
+  }
+
+  #toggler {
+    color: var(--main-color) !important;
   }
 
   .home-container {
@@ -217,7 +225,7 @@ body {
   }
 }
 
-@media (max-width : 1199px) { 
+@media (min-width: 992px) and (max-width : 1199px) { 
 
   html {
     font-size: 20px;
@@ -226,7 +234,7 @@ body {
   .navbar-container {
     min-height: var(--navbar-height);
   }
-
+  
   .home-container {
     min-height: 900px;
     display: flex;

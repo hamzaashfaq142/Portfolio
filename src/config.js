@@ -14,7 +14,7 @@ var Config = {
             companyShortName : "CSP",
             link : "https://cs.com.pk/",
             companyLongName : "Computing Solutions Pvt. Ltd",
-            designation : "Associate Software Developer",
+            designation : "Associate Software Engineer",
             period : "Feb 2023 - Oct 2023",
             responsibilities : [
                 {

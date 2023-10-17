@@ -1,6 +1,6 @@
 var Config = {
     navHeader : "Portfolio",
-    portfolioName: "Muhammad Daniyal.",
+    portfolioName: "Hamza Ishfaq.",
     tagLine: "Empowering businesses through data-driven solutions.",
     overview: "I am an experienced SQL Developer with expertise in BI, data analytics, and data visualization. Skilled in Node JS, React JS, MongoDB, and Express JS. Proven track record of success in data modeling, ETL, dashboarding, and API development. Passionate about harnessing the power of data to drive growth and innovation. Let's connect to take your business to the next level.",
     resumeLink : "https://1drv.ms/b/s!AjVMrCd_e_C_g_tTXQdLjV4WDyVIQg?e=JJJUGj",

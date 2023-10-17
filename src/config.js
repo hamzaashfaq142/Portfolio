@@ -1,7 +1,7 @@
 var Config = {
     navHeader : "Portfolio",
     portfolioName: "Hamza Ishfaq.",
-    tagLine: "Empowering businesses through data-driven solutions.",
+    tagLine: "I build things for the web.",
     overview: "I am an experienced Frontend Developer with expertise in Angular and React js. Skilled in Node JS, React JS, Sql, and Express JS. Proven track record of success in frontend, dashboarding, and API development. Passionate about harnessing the power of data to drive growth and innovation. Let's connect to take your business to the next level.",
     resumeLink : "https://drive.google.com/file/d/1OUzPxY1ByBkHyuovcrRDicJ-6s1iTmpi/view?usp=sharing",
     email : "hamzy.ashfaq@gmail.com",
